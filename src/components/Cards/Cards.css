@@ -1,0 +1,31 @@
+.card-container {
+  list-style-type: none;
+  columns: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50% auto;
+  gap: 0 80px ;
+  }
+
+.list-group-item {
+  text-align: center;
+  /* background: #AAABB8; */
+  margin-top: 7%;
+  margin: 3vw 5vw;
+  border: 3px solid #464866;
+}
+
+.userName {
+    padding: 15px 0;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.userEmail{
+    font-size: 20px;
+    font-family: cursive ;
+    padding-bottom:15px;
+}
+img{
+    width: 210px;
+    padding-top: 30px;
+}

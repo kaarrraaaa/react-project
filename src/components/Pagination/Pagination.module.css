@@ -1,0 +1,15 @@
+.pagination{
+    list-style-type: none;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+}
+.page-item{
+    padding: 5px;
+    margin-right: 3px;
+    
+}
+.page-link{
+    color: #fff;
+    text-decoration: none;
+}

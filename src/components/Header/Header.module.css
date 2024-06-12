@@ -1,0 +1,18 @@
+header{
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+height: 60px;
+}
+
+.log-btns{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    margin-right: 25px;
+    
+}
+
+.btn-log{
+    margin-right: 10px;
+}

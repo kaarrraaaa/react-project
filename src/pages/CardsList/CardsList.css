@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: linear-gradient(-30deg, #2E9AFF, #25274D);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 60px;
+    }
+    
+    .log-btns{
+        display: flex;
+        list-style-type: none;
+        justify-content: end;
+        margin-right: 25px;
+        
+    }
+    
+    .btn-log{
+        margin-right: 10px;
+    }
+    
+.not-logged-in {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    color: whitesmoke;
+  }
+  

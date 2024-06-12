@@ -1,0 +1,21 @@
+.modalRegistration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.modalRegistration-container {
+  display: none;
+}
+.modalRegistration-container.open {
+  display: flex;
+}
+.modalRegistrationContent {
+  color: whitesmoke;
+}
